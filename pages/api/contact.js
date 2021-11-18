@@ -10,7 +10,7 @@ export default async function contact(req, res) {
   const { name, email, message, phone } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "srv54.niagahoster.com",
+    host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
@@ -22,7 +22,7 @@ export default async function contact(req, res) {
   try {
     const emailResponse = await transporter.sendMail({
       from: process.env.user,
-      to: "jpwijanto@merokket.id",
+      to: "celco.samb@gmail.com, jesslynclaudia@gmail.com",
       replyTo: email,
       subject: `CELCO contact form submission from ${name}`,
       html: `<p>You have a new contact form submission</p><br>
