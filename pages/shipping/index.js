@@ -101,7 +101,9 @@ export default function Shipping() {
               </div>
               <div className="flex flex-col sm:flex-row justify-between border-b-2 border-gray-200 pt-5">
                 <p className="font-bold">Min Order</p>
-                <p className="text-subText sm:text-right">20" FT Container</p>
+                <p className="text-subText sm:text-right">
+                  20&quot; FT Container
+                </p>
               </div>
               <div className="flex flex-col sm:flex-row justify-between border-b-2 border-gray-200 pt-5">
                 <p className="font-bold">Quantity</p>
@@ -110,7 +112,7 @@ export default function Shipping() {
               <div className="flex flex-col sm:flex-row justify-between border-b-2 border-gray-200 pt-5">
                 <p className="font-bold">Loadability</p>
                 <p className="text-subText sm:text-right">
-                  20’’ FCL Container / 40" FCL Container
+                  20&quot; FCL Container / 40&quot; FCL Container
                 </p>
               </div>
             </div>
