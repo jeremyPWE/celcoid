@@ -13,7 +13,7 @@ const Footer = ({}) => {
                 Warehouse : Jl Kemuning No 3, Menteng Garden, T Bunga, Makassar
               </p>
               <p>Office : Anderson Apartment Unit 1627 Pakuwon Mall Surabaya</p>
-              <p>+62 877-8470-8878</p>
+              <p>+62 877-8122-9189</p>
               <p>celco.samb@gmail.com</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Footer = ({}) => {
                 </a>
                 <a
                   className="hover:font-bold"
-                  href="https://wa.me/6287784708878"
+                  href="https://wa.me/6287781229189"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="WhatsApp"
@@ -89,7 +89,7 @@ const Footer = ({}) => {
                     layout="fill"
                   ></Image>
                 </div>
-                <div className="relative h-12 w-44 xl:h-14 xl:w-52 bg-red-400">
+                <div className="relative h-12 w-44 xl:h-14 xl:w-52">
                   <Image
                     className="object-contain cursor-pointer"
                     src="/icons/support3.png"

@@ -86,13 +86,11 @@ export default function OurProduct() {
               </li>
               <li
                 className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
-                  category === "virgin-coconut-oil"
-                    ? `bg-aqua text-bwhite`
-                    : null
+                  category === "coconut-oil" ? `bg-aqua text-bwhite` : null
                 }`}
               >
-                <Link href="/our-product?category=virgin-coconut-oil" passHref>
-                  <a>Virgin Coconut Oil</a>
+                <Link href="/our-product?category=coconut-oil" passHref>
+                  <a>Coconut Oil</a>
                 </Link>
               </li>
               <li
@@ -127,7 +125,7 @@ export default function OurProduct() {
           </div>
           <div className="flex justify-center">
             {category === "all-products" ? <Allproduct /> : null}
-            {category === "virgin-coconut-oil" ? <Vco /> : null}
+            {category === "coconut-oil" ? <Vco /> : null}
             {category === "coconut-shell-charcoal-bricket" ? <Bricket /> : null}
             {category === "cocopeat-cocofiber-copra-nipha" ? <Coco /> : null}
           </div>

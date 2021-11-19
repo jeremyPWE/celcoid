@@ -86,7 +86,7 @@ const Allproduct = () => {
             <p className="font-medium">Nipha tea</p>
           </div>
         </Link>
-        <Link href="/our-product?category=virgin-coconut-oil" passHref>
+        <Link href="/our-product?category=coconut-oil" passHref>
           <div>
             <div className="relative h-52 w-52">
               <Image
@@ -97,6 +97,32 @@ const Allproduct = () => {
               ></Image>
             </div>
             <p className="font-medium">Virgin coconut oil</p>
+          </div>
+        </Link>
+        <Link href="/our-product?category=coconut-oil#cco" passHref>
+          <div>
+            <div className="relative h-52 w-52">
+              <Image
+                className="object-contain cursor-pointer"
+                src="/allproducts/cco.png"
+                alt="crude coconut oil"
+                layout="fill"
+              ></Image>
+            </div>
+            <p className="font-medium">Crude coconut oil</p>
+          </div>
+        </Link>
+        <Link href="/our-product?category=coconut-oil#rco" passHref>
+          <div>
+            <div className="relative h-52 w-52">
+              <Image
+                className="object-contain cursor-pointer"
+                src="/allproducts/cco.png"
+                alt="refined coconut oil"
+                layout="fill"
+              ></Image>
+            </div>
+            <p className="font-medium">Refined coconut oil</p>
           </div>
         </Link>
       </div>
