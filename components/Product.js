@@ -161,7 +161,7 @@ const Product = () => {
               <div className="relative h-80 w-56 sm:h-400 sm:w-287 lg:h-488 lg:w-350">
                 <Image
                   className="object-contain cursor-pointer"
-                  src="/cco.png"
+                  src="/rco.png"
                   alt="refined coconut oil product image"
                   layout="fill"
                 ></Image>

@@ -150,7 +150,7 @@ const Vco = () => {
         <div className="relative h-64 w-64">
           <Image
             className="object-contain cursor-pointer"
-            src="/allproducts/cco.png"
+            src="/allproducts/rco.png"
             alt="refined coconut oil image"
             layout="fill"
           ></Image>
