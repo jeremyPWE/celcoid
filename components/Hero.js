@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div>
       <div className="z-0 aspect-w-16 aspect-h-9 flex">
-        <video loop autoPlay muted>
+        <video loop autoPlay muted playsInline controls>
           <source src="/vid/hero-vid.mp4" type="video/mp4" />
         </video>
         <div className="text-bwhite flex flex-col justify-center items-center bg-layer">
