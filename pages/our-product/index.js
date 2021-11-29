@@ -9,6 +9,7 @@ import Allproduct from "../../components/Allproduct";
 import Vco from "../../components/Vco";
 import Bricket from "../../components/Bricket";
 import Coco from "../../components/Coco";
+import Whatsapp from "../../components/Whatsapp";
 
 export default function OurProduct() {
   const router = useRouter();
@@ -62,6 +63,7 @@ export default function OurProduct() {
         <meta property="twitter:image" content="/meta.png" />
       </Head>
       <Navigation />
+      <Whatsapp />
       <div className="relative h-24 w-full flex justify-center">
         <Image
           className="object-cover cursor-pointer z-0"

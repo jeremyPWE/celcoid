@@ -8,6 +8,7 @@ import Navigation from "../components/Navigation";
 import Product from "../components/Product";
 import Subhero from "../components/Subhero";
 import Team from "../components/Team";
+import Whatsapp from "../components/Whatsapp";
 import Whyus from "../components/Whyus";
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
         <meta property="twitter:image" content="/meta.png" />
       </Head>
       <Navigation />
+      <Whatsapp />
       <Hero />
       <Subhero />
       <Whyus />

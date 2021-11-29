@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
+import Whatsapp from "../../components/Whatsapp";
 
 export default function Shipping() {
   return (
@@ -57,6 +58,8 @@ export default function Shipping() {
         <meta property="twitter:image" content="/meta.png" />
       </Head>
       <Navigation />
+
+      <Whatsapp />
       <div className="relative h-24 w-full flex justify-center">
         <Image
           className="object-cover cursor-pointer z-0"
