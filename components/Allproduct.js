@@ -38,6 +38,19 @@ const Allproduct = () => {
             <p className="font-medium">Cocofiber</p>
           </div>
         </Link>
+        <Link href="/our-product?category=coconut-oil" passHref>
+          <div>
+            <div className="relative h-52 w-52">
+              <Image
+                className="object-contain cursor-pointer"
+                src="/allproducts/vco.png"
+                alt="virgin coconut oil"
+                layout="fill"
+              ></Image>
+            </div>
+            <p className="font-medium">Virgin coconut oil</p>
+          </div>
+        </Link>
         <Link href="/our-product?category=coconut-oil#cco" passHref>
           <div>
             <div className="relative h-52 w-52">
@@ -49,6 +62,19 @@ const Allproduct = () => {
               ></Image>
             </div>
             <p className="font-medium">Crude coconut oil</p>
+          </div>
+        </Link>
+        <Link href="/our-product?category=coconut-oil#rco" passHref>
+          <div>
+            <div className="relative h-52 w-52">
+              <Image
+                className="object-contain cursor-pointer"
+                src="/allproducts/rco.png"
+                alt="refined coconut oil"
+                layout="fill"
+              ></Image>
+            </div>
+            <p className="font-medium">Refined coconut oil</p>
           </div>
         </Link>
         <Link
@@ -97,32 +123,6 @@ const Allproduct = () => {
               ></Image>
             </div>
             <p className="font-medium">Nipha tea</p>
-          </div>
-        </Link>
-        <Link href="/our-product?category=coconut-oil" passHref>
-          <div>
-            <div className="relative h-52 w-52">
-              <Image
-                className="object-contain cursor-pointer"
-                src="/allproducts/vco.png"
-                alt="virgin coconut oil"
-                layout="fill"
-              ></Image>
-            </div>
-            <p className="font-medium">Virgin coconut oil</p>
-          </div>
-        </Link>
-        <Link href="/our-product?category=coconut-oil#rco" passHref>
-          <div>
-            <div className="relative h-52 w-52">
-              <Image
-                className="object-contain cursor-pointer"
-                src="/allproducts/rco.png"
-                alt="refined coconut oil"
-                layout="fill"
-              ></Image>
-            </div>
-            <p className="font-medium">Refined coconut oil</p>
           </div>
         </Link>
       </div>
