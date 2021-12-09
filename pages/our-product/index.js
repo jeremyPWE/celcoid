@@ -110,7 +110,7 @@ export default function OurProduct() {
                   href="/our-product?category=coconut-shell-charcoal-bricket"
                   passHref
                 >
-                  <a>Coconut Shell Charcoal Bricket</a>
+                  <a>Coconut Shell Charcoal Briquettes</a>
                 </Link>
               </li>
               <li
