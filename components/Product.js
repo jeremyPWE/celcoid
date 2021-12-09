@@ -28,7 +28,7 @@ const Product = () => {
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
                 <h3 className="text-base sm:text-lg">
-                  Coconut Shell Charcoal bricket
+                  Coconut Shell Charcoal Briquettes
                 </h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   Made using only the highest quality coconut shell charcoal.
@@ -69,7 +69,7 @@ const Product = () => {
                 ></Image>
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
-                <h3>Virgin coconut oil</h3>
+                <h3>Virgin Coconut Oil</h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   Mild coconut oil aroma that possesess significant lauric acid.
                 </p>
@@ -88,7 +88,7 @@ const Product = () => {
                 ></Image>
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
-                <h3>Crude coconut oil</h3>
+                <h3>Crude Coconut Oil</h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   Crude coconut oil extracted from copra.
                 </p>
@@ -106,7 +106,7 @@ const Product = () => {
                 ></Image>
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
-                <h3>Refined coconut oil</h3>
+                <h3>Refined Coconut Oil</h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   Crude coconut oil that has been Refined, Bleached and
                   Deodorized.
@@ -149,7 +149,7 @@ const Product = () => {
                 ></Image>
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
-                <h3>Nipha tea</h3>
+                <h3>Nipha Tea</h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   A plant for Palma Family that contains high anti-oxidants
                   which are efficacious.

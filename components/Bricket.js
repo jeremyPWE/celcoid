@@ -4,7 +4,7 @@ const Bricket = () => {
     <div className="flex flex-col min-h-screen text-primeText py-10">
       <div className="flex flex-col flex-grow items-center px-5 sm:px-10 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
         <h2 className="text-aqua font-bold pb-5 text-center sm:text-left">
-          Coconut Shell Charcoal Bricket
+          Coconut Shell Charcoal Briquettes
         </h2>
         <div className="relative h-64 w-64">
           <Image

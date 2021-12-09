@@ -13,12 +13,12 @@ const Allproduct = () => {
               <Image
                 className="object-contain cursor-pointer"
                 src="/allproducts/bricket.png"
-                alt="coconut shell charcoal bricket image"
+                alt="coconut shell charcoal briquettes image"
                 layout="fill"
               ></Image>
             </div>
             <p className="font-medium flex flex-wrap w-52">
-              Coconut shell charcoal bricket
+              Coconut Shell Charcoal Briquettes
             </p>
           </div>
         </Link>
@@ -48,7 +48,7 @@ const Allproduct = () => {
                 layout="fill"
               ></Image>
             </div>
-            <p className="font-medium">Virgin coconut oil</p>
+            <p className="font-medium">Virgin Coconut Oil</p>
           </div>
         </Link>
         <Link href="/our-product?category=coconut-oil#cco" passHref>
@@ -61,7 +61,7 @@ const Allproduct = () => {
                 layout="fill"
               ></Image>
             </div>
-            <p className="font-medium">Crude coconut oil</p>
+            <p className="font-medium">Crude Coconut Oil</p>
           </div>
         </Link>
         <Link href="/our-product?category=coconut-oil#rco" passHref>
@@ -74,7 +74,7 @@ const Allproduct = () => {
                 layout="fill"
               ></Image>
             </div>
-            <p className="font-medium">Refined coconut oil</p>
+            <p className="font-medium">Refined Coconut Oil</p>
           </div>
         </Link>
         <Link
@@ -122,7 +122,7 @@ const Allproduct = () => {
                 layout="fill"
               ></Image>
             </div>
-            <p className="font-medium">Nipha tea</p>
+            <p className="font-medium">Nipha Tea</p>
           </div>
         </Link>
       </div>
