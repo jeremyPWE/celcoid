@@ -27,7 +27,9 @@ const Product = () => {
                 ></Image>
               </div>
               <div className="bg-bwhite w-48 h-14 sm:w-64 lg:w-80 sm:h-24 -mt-10 sm:-mt-14 z-10 py-3 px-5 shadow-xl flex flex-col justify-center items-center sm:items-start sm:justify-start">
-                <h3>Charcoal bricket</h3>
+                <h3 className="text-base sm:text-lg">
+                  Coconut Shell Charcoal bricket
+                </h3>
                 <p className="text-xs lg:text-sm hidden sm:flex">
                   Made using only the highest quality coconut shell charcoal.
                 </p>

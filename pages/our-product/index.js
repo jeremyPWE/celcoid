@@ -23,7 +23,7 @@ export default function OurProduct() {
           content="njsUz4yjZvhBO9R_40u3_t1diUN9PhggC011AhtoNRs"
         />
         {/* Primary Meta Tags */}
-        <title>Celco | Product page</title>
+        <title>CELCO | Product page</title>
         <meta name="title" content="Celco — Product page" />
         <meta
           name="description"

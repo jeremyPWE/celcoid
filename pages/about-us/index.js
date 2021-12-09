@@ -14,7 +14,7 @@ export default function Home() {
           content="njsUz4yjZvhBO9R_40u3_t1diUN9PhggC011AhtoNRs"
         />
         {/* Primary Meta Tags */}
-        <title>Celco | About us page</title>
+        <title>CELCO | About us page</title>
         <meta name="title" content="Celco — About us page" />
         <meta
           name="description"

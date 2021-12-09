@@ -20,7 +20,7 @@ export default function Home() {
           content="njsUz4yjZvhBO9R_40u3_t1diUN9PhggC011AhtoNRs"
         />
         {/* Primary Meta Tags */}
-        <title>Celco | CV SULAWESI AGUNG MAKMUR BERSAMA</title>
+        <title>CELCO | CV SULAWESI AGUNG MAKMUR BERSAMA</title>
         <meta name="title" content="Celco — CV SULAWESI AGUNG MAKMUR BERSAMA" />
         <meta
           name="description"

@@ -15,7 +15,7 @@ export default function Shipping() {
           content="njsUz4yjZvhBO9R_40u3_t1diUN9PhggC011AhtoNRs"
         />
         {/* Primary Meta Tags */}
-        <title>Celco | Shipping information page</title>
+        <title>CELCO | Shipping information page</title>
         <meta name="title" content="Celco — Shipping information page" />
         <meta
           name="description"
