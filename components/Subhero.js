@@ -8,7 +8,7 @@ const Subhero = () => {
         <div className="relative block h-full aspect-w-3 aspect-h-2">
           <div className="flex justify-center h-full w-full">
             <video playsInline loop autoPlay muted>
-              <source src="/vid/comp_32.mp4" type="video/mp4" />
+              <source src="/vid/Comp_32.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
