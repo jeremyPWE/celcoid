@@ -79,6 +79,12 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Link>
           </li>
         </ul>
+        <div className="flex flex-col px-5 absolute bottom-8">
+          <p>Romokalisari Fortune Mate D-18</p>
+          <p>Jawa Timur, Indonesia</p>
+          <p>+62 812-3335-8878</p>
+          <p>celco.samb@gmail.com</p>
+        </div>
       </div>
       <div
         className="absolute top-0 left-0 z-0 w-full h-full bg-black bg-opacity-25"

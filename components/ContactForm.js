@@ -54,14 +54,14 @@ function ContactForm({}) {
           ></Image>
         </div>
         <div className="w-full">
-          <div className="px-8">
+          <div className="px-5">
             <h2 className="py-2 text-aqua">Contact us</h2>
             <p className="text-primeText">
               for any inquiries, contact us using the form below.
             </p>
           </div>
           {!sent ? (
-            <div className="flex flex-col justify-center px-8 py-10 w-full min-h-490 h-full max-w-2xl relative">
+            <div className="flex flex-col justify-center px-5 py-10 w-full min-h-490 h-full max-w-2xl relative">
               <form
                 onSubmit={handleSubmit(onSubmitForm)}
                 className="grid grid-cols-1 gap-y-6 w-full"

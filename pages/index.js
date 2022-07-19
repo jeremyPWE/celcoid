@@ -64,6 +64,24 @@ export default function Home() {
           export potentials of coconut products from Sulawesi Island"
         />
         <meta property="twitter:image" content="/meta.png" />
+
+        {/* Google Analytics */}
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-EZZ4JBSC94"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-EZZ4JBSC94');`}
+        </script>
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-234948688-1"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-234948688-1');`}
+        </script>
       </Head>
       <Navigation />
       <Whatsapp />

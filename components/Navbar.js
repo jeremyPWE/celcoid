@@ -23,7 +23,7 @@ const Navbar = ({ toggle }) => {
           </Link>
         </div>
 
-        <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
+        <div className="cursor-pointer md:hidden" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"

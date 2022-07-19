@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         aqua: "#35AAB1",
         bwhite: "#FAFAFA",
-        nude: "#DAD3CD",
+        nude: "#EDEDED",
         dark: "#444242",
         primeText: "#1E3240",
         subText: "#636363",
@@ -23,6 +23,11 @@ module.exports = {
         287: "17.875rem",
         520: "32.5rem",
         690: "43.125rem",
+        500: "620px",
+        700: "700px",
+        1000: "1000px",
+        1280: "1280px",
+        1440: "1440px",
       },
       fontFamily: {
         mulish: ["Mulish, sans-serif"],

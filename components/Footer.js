@@ -6,14 +6,12 @@ const Footer = ({}) => {
     <div className="flex justify-center w-full bg-dark py-10 md:pt-12 md:pb-20">
       <div className="w-full px-5 sm:px-10 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl text-thirdText">
         <div className="flex flex-col md:flex-row justify-between gap-10">
-          <div>
+          <div className="hidden md:flex flex-col">
             <h3 className="text-aqua font-bold pb-2">CELCO</h3>
             <div className="flex flex-col gap-1">
-              <p>
-                Warehouse : Jl Kemuning No 3, Menteng Garden, T Bunga, Makassar
-              </p>
-              <p>Office : Anderson Apartment Unit 1627 Pakuwon Mall Surabaya</p>
-              <p>+62 877-8122-9189</p>
+              <p>Romokalisari Fortune Mate D-18</p>
+              <p>Jawa Timur, Indonesia</p>
+              <p>+62 812-3335-8878</p>
               <p>celco.samb@gmail.com</p>
             </div>
           </div>
@@ -61,7 +59,7 @@ const Footer = ({}) => {
                 </a>
                 <a
                   className="hover:font-bold"
-                  href="https://wa.me/6287781229189"
+                  href="https://wa.me/6281233358878"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="WhatsApp"
@@ -151,9 +149,6 @@ const Footer = ({}) => {
             </div>
           </div>
         </div>
-        <p className="pt-10">
-          Copyright @ 2021 CV Sulawesi Agung Makmur Bersama
-        </p>
       </div>
     </div>
   );

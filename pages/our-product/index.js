@@ -5,16 +5,22 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
-import Allproduct from "../../components/Allproduct";
-import Vco from "../../components/Vco";
 import Bricket from "../../components/Bricket";
-import Coco from "../../components/Coco";
 import Whatsapp from "../../components/Whatsapp";
+import Hardwood from "../../components/Hardwood";
+import Sawdust from "../../components/Sawdust";
+import Desicated from "../../components/Desicated";
+import Water from "../../components/Water";
+import Jam from "../../components/Jam";
 
 export default function OurProduct() {
   const router = useRouter();
   const { query } = router;
-  const category = query.category || "all-products";
+  const category = query.category || "briquette-charcoal";
+  const type = query.type;
+
+  const [selected, setSelected] = useState("charcoal");
+
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
@@ -61,6 +67,24 @@ export default function OurProduct() {
           export potentials of coconut products from Sulawesi Island"
         />
         <meta property="twitter:image" content="/meta.png" />
+
+        {/* Google Analytics */}
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-EZZ4JBSC94"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-EZZ4JBSC94');`}
+        </script>
+        {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-234948688-1"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-234948688-1');`}
+        </script>
       </Head>
       <Navigation />
       <Whatsapp />
@@ -79,61 +103,126 @@ export default function OurProduct() {
       </div>
       <main className="flex flex-col flex-grow py-10 w-full items-center">
         <div className="w-full px-5 sm:px-10 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
-          <div className="flex justify-center">
+          <div className="flex justify-start">
             <ul className="flex py-2 whitespace-nowrap px-10 text-center sm:px-10 overflow-x-scroll scrollbar-hide sm:flex-wrap gap-5 sm:justify-center items-center text-aqua">
               <li
                 className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
-                  category === "all-products" ? `bg-aqua text-bwhite` : null
+                  category === "briquette-charcoal" ||
+                  category === "sawdust-charcoal" ||
+                  category === "hardwood-charcoal"
+                    ? `bg-aqua text-bwhite`
+                    : null
                 }`}
+                onClick={() => setSelected("charcoal")}
               >
-                <Link href="/our-product?category=all-products" passHref>
-                  <a>All</a>
+                <Link href="/our-product?category=briquette-charcoal" passHref>
+                  <a>Charcoal Products</a>
                 </Link>
               </li>
               <li
                 className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
-                  category === "coconut-oil" ? `bg-aqua text-bwhite` : null
+                  category === "desicated-coconut" ||
+                  category === "coconut-water-jelly" ||
+                  category === "coconut-jam"
+                    ? `bg-aqua text-bwhite`
+                    : null
                 }`}
+                onClick={() => setSelected("coconut")}
               >
-                <Link href="/our-product?category=coconut-oil" passHref>
-                  <a>Coconut Oil</a>
+                <Link href="/our-product?category=desicated-coconut" passHref>
+                  <a>Coconut Derivatives</a>
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div className="flex justify-start">
+            <ul
+              className={`py-2 whitespace-nowrap px-10 text-center sm:px-10 overflow-x-scroll scrollbar-hide sm:flex-wrap gap-5 sm:justify-center items-center text-aqua ${
+                selected === "charcoal" && category !== "desicated-coconut"
+                  ? `flex`
+                  : `hidden`
+              }`}
+            >
               <li
                 className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
-                  category === "coconut-shell-charcoal-bricket"
+                  category === "briquette-charcoal"
                     ? `bg-aqua text-bwhite`
                     : null
                 }`}
               >
-                <Link
-                  href="/our-product?category=coconut-shell-charcoal-bricket"
-                  passHref
-                >
-                  <a>Coconut Shell Charcoal Briquettes</a>
+                <Link href="/our-product?category=briquette-charcoal" passHref>
+                  <a>Briquette Charcoal</a>
                 </Link>
               </li>
               <li
                 className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
-                  category === "cocopeat-cocofiber-copra-nipha"
+                  category === "sawdust-charcoal" ? `bg-aqua text-bwhite` : null
+                }`}
+              >
+                <Link href="/our-product?category=sawdust-charcoal" passHref>
+                  <a>Sawdust Charcoal</a>
+                </Link>
+              </li>
+              <li
+                className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
+                  category === "hardwood-charcoal"
                     ? `bg-aqua text-bwhite`
                     : null
                 }`}
               >
-                <Link
-                  href="/our-product?category=cocopeat-cocofiber-copra-nipha"
-                  passHref
-                >
-                  <a>Cocopeat, Cocofiber, Copra, Nipha tea </a>
+                <Link href="/our-product?category=hardwood-charcoal" passHref>
+                  <a>Hardwood Charcoal</a>
+                </Link>
+              </li>
+            </ul>
+
+            <ul
+              className={`py-2 whitespace-nowrap px-10 text-center sm:px-10 overflow-x-scroll scrollbar-hide sm:flex-wrap gap-5 sm:justify-center items-center text-aqua ${
+                selected === "coconut" || category === "desicated-coconut"
+                  ? `flex`
+                  : `hidden`
+              }`}
+            >
+              <li
+                className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
+                  category === "desicated-coconut"
+                    ? `bg-aqua text-bwhite`
+                    : null
+                }`}
+              >
+                <Link href="/our-product?category=desicated-coconut" passHref>
+                  <a>Desicated Coconut</a>
+                </Link>
+              </li>
+              <li
+                className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
+                  category === "coconut-water-jelly"
+                    ? `bg-aqua text-bwhite`
+                    : null
+                }`}
+              >
+                <Link href="/our-product?category=coconut-water-jelly" passHref>
+                  <a>Coconut Water & Jelly</a>
+                </Link>
+              </li>
+              <li
+                className={`p-2 ring-1 ring-aqua active:bg-aqua active:text-bwhite ${
+                  category === "coconut-jam" ? `bg-aqua text-bwhite` : null
+                }`}
+              >
+                <Link href="/our-product?category=coconut-jam" passHref>
+                  <a>Coconut jam</a>
                 </Link>
               </li>
             </ul>
           </div>
           <div className="flex justify-center">
-            {category === "all-products" ? <Allproduct /> : null}
-            {category === "coconut-oil" ? <Vco /> : null}
-            {category === "coconut-shell-charcoal-bricket" ? <Bricket /> : null}
-            {category === "cocopeat-cocofiber-copra-nipha" ? <Coco /> : null}
+            {category === "briquette-charcoal" ? <Bricket /> : null}
+            {category === "sawdust-charcoal" ? <Sawdust /> : null}
+            {category === "hardwood-charcoal" ? <Hardwood /> : null}
+            {category === "desicated-coconut" ? <Desicated /> : null}
+            {category === "coconut-water-jelly" ? <Water /> : null}
+            {category === "coconut-jam" ? <Jam /> : null}
           </div>
         </div>
       </main>
