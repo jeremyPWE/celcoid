@@ -34,7 +34,7 @@ const Product = () => {
               <div className="relative h-[300px] w-[300px] lg:h-[370px] lg:w-[370px] xl:h-[450px] xl:w-[450px]">
                 <Image
                   className="object-cover cursor-pointer"
-                  src="/coco.png"
+                  src="/des3.png"
                   alt="coconut derivatives image"
                   layout="fill"
                 ></Image>
