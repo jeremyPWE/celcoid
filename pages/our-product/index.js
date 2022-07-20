@@ -211,7 +211,7 @@ export default function OurProduct() {
                 }`}
               >
                 <Link href="/our-product?category=coconut-jam" passHref>
-                  <a>Coconut jam</a>
+                  <a>Coconut Jam</a>
                 </Link>
               </li>
             </ul>
