@@ -6,7 +6,7 @@ const Desicated = () => {
     <div className="flex flex-col min-h-screen text-primeText py-10 w-full">
       <div className="flex flex-col flex-grow items-center px-5 sm:px-10 md:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
         <h2 className="text-aqua font-bold pb-5 text-center sm:text-left">
-          Desicated Coconut
+          Dessicated Coconut
         </h2>
         <div className="flex flex-col md:flex-row gap-4">
           {imgCarousel.map((img, index) => (

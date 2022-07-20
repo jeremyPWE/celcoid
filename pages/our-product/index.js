@@ -191,7 +191,7 @@ export default function OurProduct() {
                 }`}
               >
                 <Link href="/our-product?category=desicated-coconut" passHref>
-                  <a>Desicated Coconut</a>
+                  <a>Dessicated Coconut</a>
                 </Link>
               </li>
               <li
